@@ -1,4 +1,4 @@
-llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll# ChecaCadastro — Validador de Formulário de Cadastro
+# ChecaCadastro — Validador de Formulário de Cadastro
 
 Projeto da disciplina Linguagens Formais e Autômatos.
 
