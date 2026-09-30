@@ -7,10 +7,10 @@ Notação formal (conforme guia do professor): `r|s` união · `rs` concatenaç�
 
 `D = (0|1|2|...|9)`; `L = (a|...|z|A|...|Z)`.
 
-Todas as ER são aplicadas com `fullmatch()`: a cadeia inteira precisa pertencer à linguagem.
+Todas as ER são aplicadas com `re.fullmatch()`: a cadeia inteira precisa pertencer à linguagem, então não há âncoras `^`/`$` nos padrões. Usamos `[0-9]` em vez de `\d` porque, em Python 3, `\d` também casa dígitos Unicode (como `٣`), o que tornaria a linguagem maior que o alfabeto `{0,...,9}`. Não há retrorreferências, lookaround nem recursão.
 Os AFNε foram construídos pela **construção de Thompson** (`tools/gerar_afne.py`), que gera os
 arquivos `docs/diagramas/*.jff` e confere cada autômato contra a regex em milhares de cadeias.
-Nos diagramas, uma classe de símbolos (`\d`, `[14689]`...) aparece como dois estados ligados por
+Nos diagramas, uma classe de símbolos (`[0-9]`, `[14689]`...) aparece como dois estados ligados por
 várias transições paralelas, uma por símbolo. No JFLAP, o movimento ε é a transição de rótulo vazio (λ).
 Nas tabelas abaixo, `—{0-9}→` indica um conjunto de transições paralelas, uma por símbolo.
 
@@ -23,10 +23,10 @@ Nas tabelas abaixo, `—{0-9}→` indica um conjunto de transições paralelas, 
 | **Alfabeto (Σ)** | `{0,...,9} ∪ {., -}` |
 | **Linguagem L** | 9 dígitos em 3 blocos de 3 separados por `.`, seguidos de `-` e mais 2 dígitos (11 dígitos no total). |
 | **ER formal** | `D D D . D D D . D D D - D D` |
-| **Sintaxe implementada** | `\d{3}\.\d{3}\.\d{3}-\d{2}` |
-| **Operadores / Equivalência** | `\d` = `D`, abreviação da união `0\|1\|...\|9`; `{3}` e `{2}` = concatenação de 3 e 2 cópias de `D`; `\.` = literal `.` (escapado, pois `.` solto casaria qualquer símbolo); `-` = literal. |
+| **Sintaxe implementada** | `[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}` |
+| **Equivalência** | `[0-9]` = `D`, abreviação da união `0\|1\|...\|9` (usamos `[0-9]` e não `\d`, que em Python também casa dígitos Unicode); `{3}` e `{2}` = concatenação de 3 e 2 cópias de `D`; `\.` = literal `.` (escapado, pois `.` solto casaria qualquer símbolo); `-` = literal. |
 | **AFNε** | Só concatenação: 14 átomos (11 de dígito, 2 de `.`, 1 de `-`), cada um com 2 estados, ligados por 13 movimentos ε. Não há ramificação de decisão; cada átomo de dígito tem 10 transições paralelas (0 a 9). Total: **28 estados**, 126 transições (113 com símbolo e 13 movimentos ε). Estado inicial `q0`, estado final `q27`. Diagrama: `docs/diagramas/er01_cpf.jff`. |
-| **Testes** | Aceitas (6): `123.456.789-01`, `000.000.000-00`, `999.999.999-99`, `111.222.333-44`, `012.345.678-90`, `555.444.333-22`. Rejeitadas (6): `123456789-01`, `123.456.789.01`, `123.456.78-01`, `abc.def.ghi-jk`, cadeia vazia, `123.456.789-012`. Caso-limite: `123.456.789-012`. |
+| **Testes** | Aceitas (6): `123.456.789-01`, `000.000.000-00`, `999.999.999-99`, `111.222.333-44`, `012.345.678-90`, `555.444.333-22`. Rejeitadas (6): `123456789-01`, `123.456.789.01`, `123.456.78-01`, `abc.def.ghi-jk`, ε (cadeia vazia), `123.456.789-012`. Caso-limite: `123.456.789-012`. |
 | **Resultado e limite** | Não valida os dígitos verificadores do CPF (módulo 11), só o formato. Por isso `000.000.000-00` é aceito. |
 
 **AFNε de CPF — detalhamento.** Estados `q0` a `q27`; inicial `q0`; finais `{q27}`.
@@ -76,10 +76,10 @@ q25 —ε→ q26
 | **Alfabeto (Σ)** | `{a-z, A-Z, 0-9} ∪ {., _, -, @}` |
 | **Linguagem L** | `usuário@domínio(.subdomínio)*.tld`, com usuário de 1 ou mais símbolos de `[L D . _ -]`, blocos de domínio de 1 ou mais símbolos de `[L D -]` e tld de 2 a 4 letras. |
 | **ER formal** | `(L\|D\|.\|_\|-)+ @ (L\|D\|-)+ ( . (L\|D\|-)+ )* . L L (L)? (L)?` |
-| **Sintaxe implementada** | `[a-zA-Z0-9._-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*\.[a-zA-Z]{2,4}` |
-| **Operadores / Equivalência** | `[a-zA-Z0-9._-]` = união de `L`, `D` e dos literais `.`, `_`, `-` (o `-` no fim da classe é literal); `+` = fecho positivo `rr*`; `(\.[a-zA-Z0-9-]+)*` = fecho de Kleene do grupo "ponto + bloco" (zero ou mais subdomínios); `{2,4}` = união de `LL`, `LLL` e `LLLL`, isto é, `L L L? L?`; `\.` = literal `.`. |
+| **Sintaxe implementada** | `[a-zA-Z0-9._-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*\.[a-zA-Z]{2,4}` |
+| **Equivalência** | `[a-zA-Z0-9._-]` = união de `L`, `D` e dos literais `.`, `_`, `-` (o `-` no fim da classe é literal); `+` = fecho positivo `rr*`; `(?:\.[a-zA-Z0-9-]+)*` = fecho de Kleene do grupo (sem captura) "ponto + bloco" (zero ou mais subdomínios); `{2,4}` = união de `LL`, `LLL` e `LLLL`, isto é, `L L L? L?`; `\.` = literal `.`. |
 | **AFNε** | Construção de Thompson: bloco 1 (fecho positivo) antes do `@`; átomo `@`; bloco 2 (fecho positivo) do primeiro domínio; bloco 3, fecho de Kleene do grupo "`.` + bloco", que tem ε de pulo (zero repetições) e ε de retorno (mais repetições); átomo `.` final e tld com 2 letras obrigatórias e 2 opcionais (ε de pulo). As transições dos blocos 1, 2 e 3 são paralelas por símbolo; por isso são 430 no total. Total: **32 estados**, 430 transições (402 com símbolo e 28 movimentos ε). Estado inicial `q0`, estado final `q31`. Diagrama: `docs/diagramas/er02_email.jff`. |
-| **Testes** | Aceitas (6): `maria@gmail.com`, `joao.souza@empresa.com.br`, `a@b.co`, `user_name-1@sub-domain.io`, `teste@teste.org`, `x@y.info`. Rejeitadas (6): `maria@@gmail.com`, `@gmail.com`, `maria@gmail`, `maria.gmail.com`, cadeia vazia, `maria@gmail.c`. Caso-limite: `maria@gmail.c`. |
+| **Testes** | Aceitas (6): `maria@gmail.com`, `joao.souza@empresa.com.br`, `a@b.co`, `user_name-1@sub-domain.io`, `teste@teste.org`, `x@y.info`. Rejeitadas (6): `maria@@gmail.com`, `@gmail.com`, `maria@gmail`, `maria.gmail.com`, ε (cadeia vazia), `maria@gmail.c`. Caso-limite: `maria@gmail.c`. |
 | **Resultado e limite** | Não verifica se o domínio existe. Também aceita `a..b@x.com` (pontos seguidos no usuário) e blocos de domínio que terminam em hífen (`a@b-.com`): é uma versão simplificada, não o padrão RFC 5322. |
 
 **AFNε de EMAIL — detalhamento.** Estados `q0` a `q31`; inicial `q0`; finais `{q31}`.
@@ -133,10 +133,10 @@ q30 —ε→ q31
 | **Alfabeto (Σ)** | `{0,...,9} ∪ {(, ), espaço, -}` |
 | **Linguagem L** | `(` + um dos 67 DDDs reais do Brasil + `)` + espaço + 4 ou 5 dígitos + `-` + 4 dígitos. |
 | **ER formal** | `( AREA ) espaço ( D D D D \| D D D D D ) - D D D D`, com `AREA = A B \| 2(1\|2\|4\|7\|8) \| 3(1\|2\|3\|4\|5\|7\|8) \| 5(1\|3\|4\|5) \| 7(1\|3\|4\|5\|7\|9)`, `A = (1\|4\|6\|8\|9)` e `B = (1\|2\|...\|9)` |
-| **Sintaxe implementada** | `\((?:[14689][1-9]\|2[12478]\|3[1234578]\|5[1345]\|7[134579])\) \d{4,5}-\d{4}` |
-| **Operadores / Equivalência** | `\(` e `\)` = literais escapados; `(?:...)` = agrupamento sem captura; `\|` = união entre os 5 grupos de dezena; `[14689][1-9]` = concatenação de duas uniões (dezenas 1, 4, 6, 8, 9 com unidade de 1 a 9, o que dá 45 DDDs); `2[12478]`, `3[1234578]`, `5[1345]`, `7[134579]` = 5 + 7 + 4 + 6 DDDs, total de 67; `\d{4,5}` = `D D D D (D)?`, isto é, união de 4 e 5 cópias de `D`. |
+| **Sintaxe implementada** | `\((?:[14689][1-9]\|2[12478]\|3[1234578]\|5[1345]\|7[134579])\) [0-9]{4,5}-[0-9]{4}` |
+| **Equivalência** | `\(` e `\)` = literais escapados; `(?:...)` = agrupamento sem captura; `\|` = união entre os 5 grupos de dezena; `[14689][1-9]` = concatenação de duas uniões (dezenas 1, 4, 6, 8, 9 com unidade de 1 a 9, o que dá 45 DDDs); `2[12478]`, `3[1234578]`, `5[1345]`, `7[134579]` = 5 + 7 + 4 + 6 DDDs, total de 67; `[0-9]{4,5}` = `D D D D (D)?`, isto é, união de 4 e 5 cópias de `D`. |
 | **AFNε** | Depois do átomo `(` há um ramo de união com 5 alternativas (uma por grupo de dezena), cada uma concatenando dois átomos de classe, que reconvergem por ε no estado que antecede `)`. Depois de `)` e do espaço vêm 4 átomos de dígito obrigatórios, um átomo de dígito opcional (ε de pulo, que dá os 8 ou 9 dígitos), o `-` e 4 átomos de dígito. Total: **50 estados**, 165 transições (134 com símbolo e 31 movimentos ε). Estado inicial `q0`, estado final `q49`. Diagrama: `docs/diagramas/er03_telefone.jff`. |
-| **Testes** | Aceitas (6): `(91) 98765-4321`, `(11) 3241-5678`, `(21) 99999-0000`, `(47) 4002-8922`, `(85) 91234-5678`, `(99) 3234-5678`. Rejeitadas (11): `91 98765-4321`, `(91)98765-4321`, `(91) 987654321`, `(9) 98765-4321`, cadeia vazia, `(20) 98765-4321`, `(36) 98765-4321`, `(10) 91234-5678`, `(00) 91234-5678`, `(91) 98765-4321X`, `(91) 123-4321`. Caso-limite: `(91) 123-4321`. |
+| **Testes** | Aceitas (6): `(91) 98765-4321`, `(11) 3241-5678`, `(21) 99999-0000`, `(47) 4002-8922`, `(85) 91234-5678`, `(99) 3234-5678`. Rejeitadas (11): `91 98765-4321`, `(91)98765-4321`, `(91) 987654321`, `(9) 98765-4321`, ε (cadeia vazia), `(20) 98765-4321`, `(36) 98765-4321`, `(10) 91234-5678`, `(00) 91234-5678`, `(91) 98765-4321X`, `(91) 123-4321`. Caso-limite: `(91) 123-4321`. |
 | **Resultado e limite** | Confere o DDD contra os 67 códigos reais, mas não valida o número em si (por exemplo, se o celular começa com 9). Também não vale para telefones sem DDD, com +55 ou sem parênteses. |
 
 **AFNε de TELEFONE — detalhamento.** Estados `q0` a `q49`; inicial `q0`; finais `{q49}`.
@@ -208,10 +208,10 @@ q47 —ε→ q48
 | **Alfabeto (Σ)** | `{0,...,9} ∪ {-}` |
 | **Linguagem L** | 5 dígitos, `-`, 3 dígitos. |
 | **ER formal** | `D D D D D - D D D` |
-| **Sintaxe implementada** | `\d{5}-\d{3}` |
-| **Operadores / Equivalência** | `\d{5}` e `\d{3}` = concatenação de 5 e 3 cópias de `D`; `-` = literal. |
+| **Sintaxe implementada** | `[0-9]{5}-[0-9]{3}` |
+| **Equivalência** | `[0-9]{5}` e `[0-9]{3}` = concatenação de 5 e 3 cópias de `D`; `-` = literal. |
 | **AFNε** | Só concatenação: 9 átomos (8 de dígito e 1 de `-`), cada um com 2 estados, ligados por 8 movimentos ε. Sem ramificação de decisão. Total: **18 estados**, 89 transições (81 com símbolo e 8 movimentos ε). Estado inicial `q0`, estado final `q17`. Diagrama: `docs/diagramas/er04_cep.jff`. |
-| **Testes** | Aceitas (6): `66000-000`, `01310-100`, `20040-020`, `70040-010`, `80010-000`, `90010-150`. Rejeitadas (6): `66000000`, `66000-0000`, `6600-000`, `abcde-123`, cadeia vazia, `66000-00`. Caso-limite: `66000-00`. |
+| **Testes** | Aceitas (6): `66000-000`, `01310-100`, `20040-020`, `70040-010`, `80010-000`, `90010-150`. Rejeitadas (6): `66000000`, `66000-0000`, `6600-000`, `abcde-123`, ε (cadeia vazia), `66000-00`. Caso-limite: `66000-00`. |
 | **Resultado e limite** | Não valida se o CEP corresponde a um endereço real. |
 
 **AFNε de CEP — detalhamento.** Estados `q0` a `q17`; inicial `q0`; finais `{q17}`.
@@ -251,10 +251,10 @@ q15 —ε→ q16
 | **Alfabeto (Σ)** | `{0,...,9} ∪ {/}` |
 | **Linguagem L** | Dia (01 a 31) + `/` + mês (01 a 12) + `/` + 4 dígitos de ano. |
 | **ER formal** | `DIA / MES / D D D D`, com `DIA = 0(1\|2\|...\|9) \| (1\|2) D \| 3(0\|1)` e `MES = 0(1\|2\|...\|9) \| 1(0\|1\|2)` |
-| **Sintaxe implementada** | `(?:0[1-9]\|[12][0-9]\|3[01])/(?:0[1-9]\|1[0-2])/\d{4}` |
-| **Operadores / Equivalência** | `(?:...\|...\|...)` = agrupamento com união; `0[1-9]` = `0` seguido de união de 1 a 9 (01 a 09); `[12][0-9]` = 10 a 29; `3[01]` = 30 e 31; `1[0-2]` = 10, 11 e 12; `\d{4}` = 4 cópias de `D`; `/` = literal. |
+| **Sintaxe implementada** | `(?:0[1-9]\|[12][0-9]\|3[01])/(?:0[1-9]\|1[0-2])/[0-9]{4}` |
+| **Equivalência** | `(?:...\|...\|...)` = agrupamento com união; `0[1-9]` = `0` seguido de união de 1 a 9 (01 a 09); `[12][0-9]` = 10 a 29; `3[01]` = 30 e 31; `1[0-2]` = 10, 11 e 12; `[0-9]{4}` = 4 cópias de `D`; `/` = literal. |
 | **AFNε** | Dois ramos de união: o do dia com 3 alternativas e o do mês com 2, cada alternativa concatenando dois átomos de classe, com reconvergência por ε. Entre eles, átomos `/`; no fim, 4 átomos de dígito para o ano. Total: **36 estados**, 103 transições (81 com símbolo e 22 movimentos ε). Estado inicial `q0`, estado final `q35`. Diagrama: `docs/diagramas/er05_data.jff`. |
-| **Testes** | Aceitas (6): `15/03/1990`, `01/12/1985`, `20/07/2000`, `29/02/2024`, `31/12/1999`, `05/05/1988`. Rejeitadas (11): `15-03-1990`, `1/3/1990`, `15/031990`, `15//1990`, cadeia vazia, `32/01/2000`, `15/13/2000`, `00/01/2000`, `15/00/2000`, `15/03/1990 ` (com espaço no final), `15/03/19900`. Caso-limite: `15/03/19900`. |
+| **Testes** | Aceitas (6): `15/03/1990`, `01/12/1985`, `20/07/2000`, `29/02/2024`, `31/12/1999`, `05/05/1988`. Rejeitadas (11): `15-03-1990`, `1/3/1990`, `15/031990`, `15//1990`, ε (cadeia vazia), `32/01/2000`, `15/13/2000`, `00/01/2000`, `15/00/2000`, `15/03/1990 ` (com espaço no final), `15/03/19900`. Caso-limite: `15/03/19900`. |
 | **Resultado e limite** | Valida faixas (dia 01-31, mês 01-12), mas não cruza dia com mês (`31/04/2000` e `30/02/2000` são aceitas), não trata ano bissexto (`29/02/2023` é aceita) e aceita ano `0000`. Decisão consciente para manter a linguagem regular e o autômato de tamanho razoável; vale citar na apresentação. |
 
 **AFNε de DATA — detalhamento.** Estados `q0` a `q35`; inicial `q0`; finais `{q35}`.
