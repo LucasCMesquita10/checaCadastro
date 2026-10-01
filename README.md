@@ -76,7 +76,7 @@ Todos os integrantes compreendem, explicam e conseguem modificar o conteúdo pro
 ## Contribuições dos integrantes
 | Integrante | Contribuição |
 |------------|--------------|
-| [Benjamin Yuji Suzuki] | [o que fez] |
-| [Felipe de Freitas da Silva] | [o que fez] |
-| [Jorge Lobato Gonçalves] | [o que fez] |
-| [Lucas Coelho Mesquita] | [o que fez] |
+| [Benjamin Yuji Suzuki] | [Construção dos modelos no JFLAP, mapeando as expressões regulares para os diagramas de Autômatos Finitos Não Determinísticos (AFNε)] |
+| [Felipe de Freitas da Silva] | [Elaboração da apresentação de slides, estruturando a explicação das expressões regulares e a narrativa do projeto] |
+| [Jorge Lobato Gonçalves] | [Auxílio na elaboração dos casos de teste e revisão da documentação para garantir a consistência geral das validações] |
+| [Lucas Coelho Mesquita] | [Criação e configuração do repositório principal, estruturação da base do código e domínio das regras de negócio do projeto] |
