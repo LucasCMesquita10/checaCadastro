@@ -1,467 +1,2287 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><structure>
-<type>fa</type>
-<automaton>
-<state id="0" name="q0"><x>70.0</x><y>70.0</y><initial/></state>
-<state id="1" name="q1"><x>180.0</x><y>70.0</y></state>
-<state id="2" name="q2"><x>290.0</x><y>70.0</y></state>
-<state id="3" name="q3"><x>400.0</x><y>70.0</y></state>
-<state id="4" name="q4"><x>510.0</x><y>70.0</y></state>
-<state id="5" name="q5"><x>620.0</x><y>70.0</y></state>
-<state id="6" name="q6"><x>730.0</x><y>70.0</y></state>
-<state id="7" name="q7"><x>840.0</x><y>70.0</y></state>
-<state id="8" name="q8"><x>950.0</x><y>70.0</y></state>
-<state id="9" name="q9"><x>1060.0</x><y>70.0</y></state>
-<state id="10" name="q10"><x>70.0</x><y>200.0</y></state>
-<state id="11" name="q11"><x>180.0</x><y>200.0</y></state>
-<state id="12" name="q12"><x>290.0</x><y>200.0</y></state>
-<state id="13" name="q13"><x>400.0</x><y>200.0</y></state>
-<state id="14" name="q14"><x>510.0</x><y>200.0</y></state>
-<state id="15" name="q15"><x>620.0</x><y>200.0</y></state>
-<state id="16" name="q16"><x>730.0</x><y>200.0</y></state>
-<state id="17" name="q17"><x>840.0</x><y>200.0</y></state>
-<state id="18" name="q18"><x>950.0</x><y>200.0</y></state>
-<state id="19" name="q19"><x>1060.0</x><y>200.0</y></state>
-<state id="20" name="q20"><x>70.0</x><y>330.0</y></state>
-<state id="21" name="q21"><x>180.0</x><y>330.0</y></state>
-<state id="22" name="q22"><x>290.0</x><y>330.0</y></state>
-<state id="23" name="q23"><x>400.0</x><y>330.0</y></state>
-<state id="24" name="q24"><x>510.0</x><y>330.0</y></state>
-<state id="25" name="q25"><x>620.0</x><y>330.0</y></state>
-<state id="26" name="q26"><x>730.0</x><y>330.0</y></state>
-<state id="27" name="q27"><x>840.0</x><y>330.0</y></state>
-<state id="28" name="q28"><x>950.0</x><y>330.0</y></state>
-<state id="29" name="q29"><x>1060.0</x><y>330.0</y></state>
-<state id="30" name="q30"><x>70.0</x><y>460.0</y></state>
-<state id="31" name="q31"><x>180.0</x><y>460.0</y><final/></state>
-<transition><from>1</from><to>2</to><read>-</read></transition>
-<transition><from>1</from><to>2</to><read>.</read></transition>
-<transition><from>1</from><to>2</to><read>0</read></transition>
-<transition><from>1</from><to>2</to><read>1</read></transition>
-<transition><from>1</from><to>2</to><read>2</read></transition>
-<transition><from>1</from><to>2</to><read>3</read></transition>
-<transition><from>1</from><to>2</to><read>4</read></transition>
-<transition><from>1</from><to>2</to><read>5</read></transition>
-<transition><from>1</from><to>2</to><read>6</read></transition>
-<transition><from>1</from><to>2</to><read>7</read></transition>
-<transition><from>1</from><to>2</to><read>8</read></transition>
-<transition><from>1</from><to>2</to><read>9</read></transition>
-<transition><from>1</from><to>2</to><read>A</read></transition>
-<transition><from>1</from><to>2</to><read>B</read></transition>
-<transition><from>1</from><to>2</to><read>C</read></transition>
-<transition><from>1</from><to>2</to><read>D</read></transition>
-<transition><from>1</from><to>2</to><read>E</read></transition>
-<transition><from>1</from><to>2</to><read>F</read></transition>
-<transition><from>1</from><to>2</to><read>G</read></transition>
-<transition><from>1</from><to>2</to><read>H</read></transition>
-<transition><from>1</from><to>2</to><read>I</read></transition>
-<transition><from>1</from><to>2</to><read>J</read></transition>
-<transition><from>1</from><to>2</to><read>K</read></transition>
-<transition><from>1</from><to>2</to><read>L</read></transition>
-<transition><from>1</from><to>2</to><read>M</read></transition>
-<transition><from>1</from><to>2</to><read>N</read></transition>
-<transition><from>1</from><to>2</to><read>O</read></transition>
-<transition><from>1</from><to>2</to><read>P</read></transition>
-<transition><from>1</from><to>2</to><read>Q</read></transition>
-<transition><from>1</from><to>2</to><read>R</read></transition>
-<transition><from>1</from><to>2</to><read>S</read></transition>
-<transition><from>1</from><to>2</to><read>T</read></transition>
-<transition><from>1</from><to>2</to><read>U</read></transition>
-<transition><from>1</from><to>2</to><read>V</read></transition>
-<transition><from>1</from><to>2</to><read>W</read></transition>
-<transition><from>1</from><to>2</to><read>X</read></transition>
-<transition><from>1</from><to>2</to><read>Y</read></transition>
-<transition><from>1</from><to>2</to><read>Z</read></transition>
-<transition><from>1</from><to>2</to><read>_</read></transition>
-<transition><from>1</from><to>2</to><read>a</read></transition>
-<transition><from>1</from><to>2</to><read>b</read></transition>
-<transition><from>1</from><to>2</to><read>c</read></transition>
-<transition><from>1</from><to>2</to><read>d</read></transition>
-<transition><from>1</from><to>2</to><read>e</read></transition>
-<transition><from>1</from><to>2</to><read>f</read></transition>
-<transition><from>1</from><to>2</to><read>g</read></transition>
-<transition><from>1</from><to>2</to><read>h</read></transition>
-<transition><from>1</from><to>2</to><read>i</read></transition>
-<transition><from>1</from><to>2</to><read>j</read></transition>
-<transition><from>1</from><to>2</to><read>k</read></transition>
-<transition><from>1</from><to>2</to><read>l</read></transition>
-<transition><from>1</from><to>2</to><read>m</read></transition>
-<transition><from>1</from><to>2</to><read>n</read></transition>
-<transition><from>1</from><to>2</to><read>o</read></transition>
-<transition><from>1</from><to>2</to><read>p</read></transition>
-<transition><from>1</from><to>2</to><read>q</read></transition>
-<transition><from>1</from><to>2</to><read>r</read></transition>
-<transition><from>1</from><to>2</to><read>s</read></transition>
-<transition><from>1</from><to>2</to><read>t</read></transition>
-<transition><from>1</from><to>2</to><read>u</read></transition>
-<transition><from>1</from><to>2</to><read>v</read></transition>
-<transition><from>1</from><to>2</to><read>w</read></transition>
-<transition><from>1</from><to>2</to><read>x</read></transition>
-<transition><from>1</from><to>2</to><read>y</read></transition>
-<transition><from>1</from><to>2</to><read>z</read></transition>
-<transition><from>0</from><to>1</to><read/></transition>
-<transition><from>2</from><to>3</to><read/></transition>
-<transition><from>2</from><to>1</to><read/></transition>
-<transition><from>4</from><to>5</to><read>@</read></transition>
-<transition><from>7</from><to>8</to><read>-</read></transition>
-<transition><from>7</from><to>8</to><read>0</read></transition>
-<transition><from>7</from><to>8</to><read>1</read></transition>
-<transition><from>7</from><to>8</to><read>2</read></transition>
-<transition><from>7</from><to>8</to><read>3</read></transition>
-<transition><from>7</from><to>8</to><read>4</read></transition>
-<transition><from>7</from><to>8</to><read>5</read></transition>
-<transition><from>7</from><to>8</to><read>6</read></transition>
-<transition><from>7</from><to>8</to><read>7</read></transition>
-<transition><from>7</from><to>8</to><read>8</read></transition>
-<transition><from>7</from><to>8</to><read>9</read></transition>
-<transition><from>7</from><to>8</to><read>A</read></transition>
-<transition><from>7</from><to>8</to><read>B</read></transition>
-<transition><from>7</from><to>8</to><read>C</read></transition>
-<transition><from>7</from><to>8</to><read>D</read></transition>
-<transition><from>7</from><to>8</to><read>E</read></transition>
-<transition><from>7</from><to>8</to><read>F</read></transition>
-<transition><from>7</from><to>8</to><read>G</read></transition>
-<transition><from>7</from><to>8</to><read>H</read></transition>
-<transition><from>7</from><to>8</to><read>I</read></transition>
-<transition><from>7</from><to>8</to><read>J</read></transition>
-<transition><from>7</from><to>8</to><read>K</read></transition>
-<transition><from>7</from><to>8</to><read>L</read></transition>
-<transition><from>7</from><to>8</to><read>M</read></transition>
-<transition><from>7</from><to>8</to><read>N</read></transition>
-<transition><from>7</from><to>8</to><read>O</read></transition>
-<transition><from>7</from><to>8</to><read>P</read></transition>
-<transition><from>7</from><to>8</to><read>Q</read></transition>
-<transition><from>7</from><to>8</to><read>R</read></transition>
-<transition><from>7</from><to>8</to><read>S</read></transition>
-<transition><from>7</from><to>8</to><read>T</read></transition>
-<transition><from>7</from><to>8</to><read>U</read></transition>
-<transition><from>7</from><to>8</to><read>V</read></transition>
-<transition><from>7</from><to>8</to><read>W</read></transition>
-<transition><from>7</from><to>8</to><read>X</read></transition>
-<transition><from>7</from><to>8</to><read>Y</read></transition>
-<transition><from>7</from><to>8</to><read>Z</read></transition>
-<transition><from>7</from><to>8</to><read>a</read></transition>
-<transition><from>7</from><to>8</to><read>b</read></transition>
-<transition><from>7</from><to>8</to><read>c</read></transition>
-<transition><from>7</from><to>8</to><read>d</read></transition>
-<transition><from>7</from><to>8</to><read>e</read></transition>
-<transition><from>7</from><to>8</to><read>f</read></transition>
-<transition><from>7</from><to>8</to><read>g</read></transition>
-<transition><from>7</from><to>8</to><read>h</read></transition>
-<transition><from>7</from><to>8</to><read>i</read></transition>
-<transition><from>7</from><to>8</to><read>j</read></transition>
-<transition><from>7</from><to>8</to><read>k</read></transition>
-<transition><from>7</from><to>8</to><read>l</read></transition>
-<transition><from>7</from><to>8</to><read>m</read></transition>
-<transition><from>7</from><to>8</to><read>n</read></transition>
-<transition><from>7</from><to>8</to><read>o</read></transition>
-<transition><from>7</from><to>8</to><read>p</read></transition>
-<transition><from>7</from><to>8</to><read>q</read></transition>
-<transition><from>7</from><to>8</to><read>r</read></transition>
-<transition><from>7</from><to>8</to><read>s</read></transition>
-<transition><from>7</from><to>8</to><read>t</read></transition>
-<transition><from>7</from><to>8</to><read>u</read></transition>
-<transition><from>7</from><to>8</to><read>v</read></transition>
-<transition><from>7</from><to>8</to><read>w</read></transition>
-<transition><from>7</from><to>8</to><read>x</read></transition>
-<transition><from>7</from><to>8</to><read>y</read></transition>
-<transition><from>7</from><to>8</to><read>z</read></transition>
-<transition><from>6</from><to>7</to><read/></transition>
-<transition><from>8</from><to>9</to><read/></transition>
-<transition><from>8</from><to>7</to><read/></transition>
-<transition><from>11</from><to>12</to><read>.</read></transition>
-<transition><from>14</from><to>15</to><read>-</read></transition>
-<transition><from>14</from><to>15</to><read>0</read></transition>
-<transition><from>14</from><to>15</to><read>1</read></transition>
-<transition><from>14</from><to>15</to><read>2</read></transition>
-<transition><from>14</from><to>15</to><read>3</read></transition>
-<transition><from>14</from><to>15</to><read>4</read></transition>
-<transition><from>14</from><to>15</to><read>5</read></transition>
-<transition><from>14</from><to>15</to><read>6</read></transition>
-<transition><from>14</from><to>15</to><read>7</read></transition>
-<transition><from>14</from><to>15</to><read>8</read></transition>
-<transition><from>14</from><to>15</to><read>9</read></transition>
-<transition><from>14</from><to>15</to><read>A</read></transition>
-<transition><from>14</from><to>15</to><read>B</read></transition>
-<transition><from>14</from><to>15</to><read>C</read></transition>
-<transition><from>14</from><to>15</to><read>D</read></transition>
-<transition><from>14</from><to>15</to><read>E</read></transition>
-<transition><from>14</from><to>15</to><read>F</read></transition>
-<transition><from>14</from><to>15</to><read>G</read></transition>
-<transition><from>14</from><to>15</to><read>H</read></transition>
-<transition><from>14</from><to>15</to><read>I</read></transition>
-<transition><from>14</from><to>15</to><read>J</read></transition>
-<transition><from>14</from><to>15</to><read>K</read></transition>
-<transition><from>14</from><to>15</to><read>L</read></transition>
-<transition><from>14</from><to>15</to><read>M</read></transition>
-<transition><from>14</from><to>15</to><read>N</read></transition>
-<transition><from>14</from><to>15</to><read>O</read></transition>
-<transition><from>14</from><to>15</to><read>P</read></transition>
-<transition><from>14</from><to>15</to><read>Q</read></transition>
-<transition><from>14</from><to>15</to><read>R</read></transition>
-<transition><from>14</from><to>15</to><read>S</read></transition>
-<transition><from>14</from><to>15</to><read>T</read></transition>
-<transition><from>14</from><to>15</to><read>U</read></transition>
-<transition><from>14</from><to>15</to><read>V</read></transition>
-<transition><from>14</from><to>15</to><read>W</read></transition>
-<transition><from>14</from><to>15</to><read>X</read></transition>
-<transition><from>14</from><to>15</to><read>Y</read></transition>
-<transition><from>14</from><to>15</to><read>Z</read></transition>
-<transition><from>14</from><to>15</to><read>a</read></transition>
-<transition><from>14</from><to>15</to><read>b</read></transition>
-<transition><from>14</from><to>15</to><read>c</read></transition>
-<transition><from>14</from><to>15</to><read>d</read></transition>
-<transition><from>14</from><to>15</to><read>e</read></transition>
-<transition><from>14</from><to>15</to><read>f</read></transition>
-<transition><from>14</from><to>15</to><read>g</read></transition>
-<transition><from>14</from><to>15</to><read>h</read></transition>
-<transition><from>14</from><to>15</to><read>i</read></transition>
-<transition><from>14</from><to>15</to><read>j</read></transition>
-<transition><from>14</from><to>15</to><read>k</read></transition>
-<transition><from>14</from><to>15</to><read>l</read></transition>
-<transition><from>14</from><to>15</to><read>m</read></transition>
-<transition><from>14</from><to>15</to><read>n</read></transition>
-<transition><from>14</from><to>15</to><read>o</read></transition>
-<transition><from>14</from><to>15</to><read>p</read></transition>
-<transition><from>14</from><to>15</to><read>q</read></transition>
-<transition><from>14</from><to>15</to><read>r</read></transition>
-<transition><from>14</from><to>15</to><read>s</read></transition>
-<transition><from>14</from><to>15</to><read>t</read></transition>
-<transition><from>14</from><to>15</to><read>u</read></transition>
-<transition><from>14</from><to>15</to><read>v</read></transition>
-<transition><from>14</from><to>15</to><read>w</read></transition>
-<transition><from>14</from><to>15</to><read>x</read></transition>
-<transition><from>14</from><to>15</to><read>y</read></transition>
-<transition><from>14</from><to>15</to><read>z</read></transition>
-<transition><from>13</from><to>14</to><read/></transition>
-<transition><from>15</from><to>16</to><read/></transition>
-<transition><from>15</from><to>14</to><read/></transition>
-<transition><from>12</from><to>13</to><read/></transition>
-<transition><from>10</from><to>11</to><read/></transition>
-<transition><from>16</from><to>17</to><read/></transition>
-<transition><from>10</from><to>17</to><read/></transition>
-<transition><from>16</from><to>11</to><read/></transition>
-<transition><from>18</from><to>19</to><read>.</read></transition>
-<transition><from>20</from><to>21</to><read>A</read></transition>
-<transition><from>20</from><to>21</to><read>B</read></transition>
-<transition><from>20</from><to>21</to><read>C</read></transition>
-<transition><from>20</from><to>21</to><read>D</read></transition>
-<transition><from>20</from><to>21</to><read>E</read></transition>
-<transition><from>20</from><to>21</to><read>F</read></transition>
-<transition><from>20</from><to>21</to><read>G</read></transition>
-<transition><from>20</from><to>21</to><read>H</read></transition>
-<transition><from>20</from><to>21</to><read>I</read></transition>
-<transition><from>20</from><to>21</to><read>J</read></transition>
-<transition><from>20</from><to>21</to><read>K</read></transition>
-<transition><from>20</from><to>21</to><read>L</read></transition>
-<transition><from>20</from><to>21</to><read>M</read></transition>
-<transition><from>20</from><to>21</to><read>N</read></transition>
-<transition><from>20</from><to>21</to><read>O</read></transition>
-<transition><from>20</from><to>21</to><read>P</read></transition>
-<transition><from>20</from><to>21</to><read>Q</read></transition>
-<transition><from>20</from><to>21</to><read>R</read></transition>
-<transition><from>20</from><to>21</to><read>S</read></transition>
-<transition><from>20</from><to>21</to><read>T</read></transition>
-<transition><from>20</from><to>21</to><read>U</read></transition>
-<transition><from>20</from><to>21</to><read>V</read></transition>
-<transition><from>20</from><to>21</to><read>W</read></transition>
-<transition><from>20</from><to>21</to><read>X</read></transition>
-<transition><from>20</from><to>21</to><read>Y</read></transition>
-<transition><from>20</from><to>21</to><read>Z</read></transition>
-<transition><from>20</from><to>21</to><read>a</read></transition>
-<transition><from>20</from><to>21</to><read>b</read></transition>
-<transition><from>20</from><to>21</to><read>c</read></transition>
-<transition><from>20</from><to>21</to><read>d</read></transition>
-<transition><from>20</from><to>21</to><read>e</read></transition>
-<transition><from>20</from><to>21</to><read>f</read></transition>
-<transition><from>20</from><to>21</to><read>g</read></transition>
-<transition><from>20</from><to>21</to><read>h</read></transition>
-<transition><from>20</from><to>21</to><read>i</read></transition>
-<transition><from>20</from><to>21</to><read>j</read></transition>
-<transition><from>20</from><to>21</to><read>k</read></transition>
-<transition><from>20</from><to>21</to><read>l</read></transition>
-<transition><from>20</from><to>21</to><read>m</read></transition>
-<transition><from>20</from><to>21</to><read>n</read></transition>
-<transition><from>20</from><to>21</to><read>o</read></transition>
-<transition><from>20</from><to>21</to><read>p</read></transition>
-<transition><from>20</from><to>21</to><read>q</read></transition>
-<transition><from>20</from><to>21</to><read>r</read></transition>
-<transition><from>20</from><to>21</to><read>s</read></transition>
-<transition><from>20</from><to>21</to><read>t</read></transition>
-<transition><from>20</from><to>21</to><read>u</read></transition>
-<transition><from>20</from><to>21</to><read>v</read></transition>
-<transition><from>20</from><to>21</to><read>w</read></transition>
-<transition><from>20</from><to>21</to><read>x</read></transition>
-<transition><from>20</from><to>21</to><read>y</read></transition>
-<transition><from>20</from><to>21</to><read>z</read></transition>
-<transition><from>22</from><to>23</to><read>A</read></transition>
-<transition><from>22</from><to>23</to><read>B</read></transition>
-<transition><from>22</from><to>23</to><read>C</read></transition>
-<transition><from>22</from><to>23</to><read>D</read></transition>
-<transition><from>22</from><to>23</to><read>E</read></transition>
-<transition><from>22</from><to>23</to><read>F</read></transition>
-<transition><from>22</from><to>23</to><read>G</read></transition>
-<transition><from>22</from><to>23</to><read>H</read></transition>
-<transition><from>22</from><to>23</to><read>I</read></transition>
-<transition><from>22</from><to>23</to><read>J</read></transition>
-<transition><from>22</from><to>23</to><read>K</read></transition>
-<transition><from>22</from><to>23</to><read>L</read></transition>
-<transition><from>22</from><to>23</to><read>M</read></transition>
-<transition><from>22</from><to>23</to><read>N</read></transition>
-<transition><from>22</from><to>23</to><read>O</read></transition>
-<transition><from>22</from><to>23</to><read>P</read></transition>
-<transition><from>22</from><to>23</to><read>Q</read></transition>
-<transition><from>22</from><to>23</to><read>R</read></transition>
-<transition><from>22</from><to>23</to><read>S</read></transition>
-<transition><from>22</from><to>23</to><read>T</read></transition>
-<transition><from>22</from><to>23</to><read>U</read></transition>
-<transition><from>22</from><to>23</to><read>V</read></transition>
-<transition><from>22</from><to>23</to><read>W</read></transition>
-<transition><from>22</from><to>23</to><read>X</read></transition>
-<transition><from>22</from><to>23</to><read>Y</read></transition>
-<transition><from>22</from><to>23</to><read>Z</read></transition>
-<transition><from>22</from><to>23</to><read>a</read></transition>
-<transition><from>22</from><to>23</to><read>b</read></transition>
-<transition><from>22</from><to>23</to><read>c</read></transition>
-<transition><from>22</from><to>23</to><read>d</read></transition>
-<transition><from>22</from><to>23</to><read>e</read></transition>
-<transition><from>22</from><to>23</to><read>f</read></transition>
-<transition><from>22</from><to>23</to><read>g</read></transition>
-<transition><from>22</from><to>23</to><read>h</read></transition>
-<transition><from>22</from><to>23</to><read>i</read></transition>
-<transition><from>22</from><to>23</to><read>j</read></transition>
-<transition><from>22</from><to>23</to><read>k</read></transition>
-<transition><from>22</from><to>23</to><read>l</read></transition>
-<transition><from>22</from><to>23</to><read>m</read></transition>
-<transition><from>22</from><to>23</to><read>n</read></transition>
-<transition><from>22</from><to>23</to><read>o</read></transition>
-<transition><from>22</from><to>23</to><read>p</read></transition>
-<transition><from>22</from><to>23</to><read>q</read></transition>
-<transition><from>22</from><to>23</to><read>r</read></transition>
-<transition><from>22</from><to>23</to><read>s</read></transition>
-<transition><from>22</from><to>23</to><read>t</read></transition>
-<transition><from>22</from><to>23</to><read>u</read></transition>
-<transition><from>22</from><to>23</to><read>v</read></transition>
-<transition><from>22</from><to>23</to><read>w</read></transition>
-<transition><from>22</from><to>23</to><read>x</read></transition>
-<transition><from>22</from><to>23</to><read>y</read></transition>
-<transition><from>22</from><to>23</to><read>z</read></transition>
-<transition><from>25</from><to>26</to><read>A</read></transition>
-<transition><from>25</from><to>26</to><read>B</read></transition>
-<transition><from>25</from><to>26</to><read>C</read></transition>
-<transition><from>25</from><to>26</to><read>D</read></transition>
-<transition><from>25</from><to>26</to><read>E</read></transition>
-<transition><from>25</from><to>26</to><read>F</read></transition>
-<transition><from>25</from><to>26</to><read>G</read></transition>
-<transition><from>25</from><to>26</to><read>H</read></transition>
-<transition><from>25</from><to>26</to><read>I</read></transition>
-<transition><from>25</from><to>26</to><read>J</read></transition>
-<transition><from>25</from><to>26</to><read>K</read></transition>
-<transition><from>25</from><to>26</to><read>L</read></transition>
-<transition><from>25</from><to>26</to><read>M</read></transition>
-<transition><from>25</from><to>26</to><read>N</read></transition>
-<transition><from>25</from><to>26</to><read>O</read></transition>
-<transition><from>25</from><to>26</to><read>P</read></transition>
-<transition><from>25</from><to>26</to><read>Q</read></transition>
-<transition><from>25</from><to>26</to><read>R</read></transition>
-<transition><from>25</from><to>26</to><read>S</read></transition>
-<transition><from>25</from><to>26</to><read>T</read></transition>
-<transition><from>25</from><to>26</to><read>U</read></transition>
-<transition><from>25</from><to>26</to><read>V</read></transition>
-<transition><from>25</from><to>26</to><read>W</read></transition>
-<transition><from>25</from><to>26</to><read>X</read></transition>
-<transition><from>25</from><to>26</to><read>Y</read></transition>
-<transition><from>25</from><to>26</to><read>Z</read></transition>
-<transition><from>25</from><to>26</to><read>a</read></transition>
-<transition><from>25</from><to>26</to><read>b</read></transition>
-<transition><from>25</from><to>26</to><read>c</read></transition>
-<transition><from>25</from><to>26</to><read>d</read></transition>
-<transition><from>25</from><to>26</to><read>e</read></transition>
-<transition><from>25</from><to>26</to><read>f</read></transition>
-<transition><from>25</from><to>26</to><read>g</read></transition>
-<transition><from>25</from><to>26</to><read>h</read></transition>
-<transition><from>25</from><to>26</to><read>i</read></transition>
-<transition><from>25</from><to>26</to><read>j</read></transition>
-<transition><from>25</from><to>26</to><read>k</read></transition>
-<transition><from>25</from><to>26</to><read>l</read></transition>
-<transition><from>25</from><to>26</to><read>m</read></transition>
-<transition><from>25</from><to>26</to><read>n</read></transition>
-<transition><from>25</from><to>26</to><read>o</read></transition>
-<transition><from>25</from><to>26</to><read>p</read></transition>
-<transition><from>25</from><to>26</to><read>q</read></transition>
-<transition><from>25</from><to>26</to><read>r</read></transition>
-<transition><from>25</from><to>26</to><read>s</read></transition>
-<transition><from>25</from><to>26</to><read>t</read></transition>
-<transition><from>25</from><to>26</to><read>u</read></transition>
-<transition><from>25</from><to>26</to><read>v</read></transition>
-<transition><from>25</from><to>26</to><read>w</read></transition>
-<transition><from>25</from><to>26</to><read>x</read></transition>
-<transition><from>25</from><to>26</to><read>y</read></transition>
-<transition><from>25</from><to>26</to><read>z</read></transition>
-<transition><from>24</from><to>25</to><read/></transition>
-<transition><from>26</from><to>27</to><read/></transition>
-<transition><from>24</from><to>27</to><read/></transition>
-<transition><from>29</from><to>30</to><read>A</read></transition>
-<transition><from>29</from><to>30</to><read>B</read></transition>
-<transition><from>29</from><to>30</to><read>C</read></transition>
-<transition><from>29</from><to>30</to><read>D</read></transition>
-<transition><from>29</from><to>30</to><read>E</read></transition>
-<transition><from>29</from><to>30</to><read>F</read></transition>
-<transition><from>29</from><to>30</to><read>G</read></transition>
-<transition><from>29</from><to>30</to><read>H</read></transition>
-<transition><from>29</from><to>30</to><read>I</read></transition>
-<transition><from>29</from><to>30</to><read>J</read></transition>
-<transition><from>29</from><to>30</to><read>K</read></transition>
-<transition><from>29</from><to>30</to><read>L</read></transition>
-<transition><from>29</from><to>30</to><read>M</read></transition>
-<transition><from>29</from><to>30</to><read>N</read></transition>
-<transition><from>29</from><to>30</to><read>O</read></transition>
-<transition><from>29</from><to>30</to><read>P</read></transition>
-<transition><from>29</from><to>30</to><read>Q</read></transition>
-<transition><from>29</from><to>30</to><read>R</read></transition>
-<transition><from>29</from><to>30</to><read>S</read></transition>
-<transition><from>29</from><to>30</to><read>T</read></transition>
-<transition><from>29</from><to>30</to><read>U</read></transition>
-<transition><from>29</from><to>30</to><read>V</read></transition>
-<transition><from>29</from><to>30</to><read>W</read></transition>
-<transition><from>29</from><to>30</to><read>X</read></transition>
-<transition><from>29</from><to>30</to><read>Y</read></transition>
-<transition><from>29</from><to>30</to><read>Z</read></transition>
-<transition><from>29</from><to>30</to><read>a</read></transition>
-<transition><from>29</from><to>30</to><read>b</read></transition>
-<transition><from>29</from><to>30</to><read>c</read></transition>
-<transition><from>29</from><to>30</to><read>d</read></transition>
-<transition><from>29</from><to>30</to><read>e</read></transition>
-<transition><from>29</from><to>30</to><read>f</read></transition>
-<transition><from>29</from><to>30</to><read>g</read></transition>
-<transition><from>29</from><to>30</to><read>h</read></transition>
-<transition><from>29</from><to>30</to><read>i</read></transition>
-<transition><from>29</from><to>30</to><read>j</read></transition>
-<transition><from>29</from><to>30</to><read>k</read></transition>
-<transition><from>29</from><to>30</to><read>l</read></transition>
-<transition><from>29</from><to>30</to><read>m</read></transition>
-<transition><from>29</from><to>30</to><read>n</read></transition>
-<transition><from>29</from><to>30</to><read>o</read></transition>
-<transition><from>29</from><to>30</to><read>p</read></transition>
-<transition><from>29</from><to>30</to><read>q</read></transition>
-<transition><from>29</from><to>30</to><read>r</read></transition>
-<transition><from>29</from><to>30</to><read>s</read></transition>
-<transition><from>29</from><to>30</to><read>t</read></transition>
-<transition><from>29</from><to>30</to><read>u</read></transition>
-<transition><from>29</from><to>30</to><read>v</read></transition>
-<transition><from>29</from><to>30</to><read>w</read></transition>
-<transition><from>29</from><to>30</to><read>x</read></transition>
-<transition><from>29</from><to>30</to><read>y</read></transition>
-<transition><from>29</from><to>30</to><read>z</read></transition>
-<transition><from>28</from><to>29</to><read/></transition>
-<transition><from>30</from><to>31</to><read/></transition>
-<transition><from>28</from><to>31</to><read/></transition>
-<transition><from>21</from><to>22</to><read/></transition>
-<transition><from>23</from><to>24</to><read/></transition>
-<transition><from>27</from><to>28</to><read/></transition>
-<transition><from>3</from><to>4</to><read/></transition>
-<transition><from>5</from><to>6</to><read/></transition>
-<transition><from>9</from><to>10</to><read/></transition>
-<transition><from>17</from><to>18</to><read/></transition>
-<transition><from>19</from><to>20</to><read/></transition>
-</automaton>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>&#13;
+	<type>fa</type>&#13;
+	<automaton>&#13;
+		<!--The list of states.-->&#13;
+		<state id="0" name="q0">&#13;
+			<x>70.0</x>&#13;
+			<y>70.0</y>&#13;
+			<initial/>&#13;
+		</state>&#13;
+		<state id="1" name="q1">&#13;
+			<x>180.0</x>&#13;
+			<y>70.0</y>&#13;
+		</state>&#13;
+		<state id="2" name="q2">&#13;
+			<x>290.0</x>&#13;
+			<y>70.0</y>&#13;
+		</state>&#13;
+		<state id="3" name="q3">&#13;
+			<x>400.0</x>&#13;
+			<y>70.0</y>&#13;
+		</state>&#13;
+		<state id="4" name="q4">&#13;
+			<x>510.0</x>&#13;
+			<y>70.0</y>&#13;
+		</state>&#13;
+		<state id="5" name="q5">&#13;
+			<x>620.0</x>&#13;
+			<y>70.0</y>&#13;
+		</state>&#13;
+		<state id="6" name="q6">&#13;
+			<x>730.0</x>&#13;
+			<y>70.0</y>&#13;
+		</state>&#13;
+		<state id="7" name="q7">&#13;
+			<x>840.0</x>&#13;
+			<y>70.0</y>&#13;
+		</state>&#13;
+		<state id="8" name="q8">&#13;
+			<x>950.0</x>&#13;
+			<y>70.0</y>&#13;
+		</state>&#13;
+		<state id="9" name="q9">&#13;
+			<x>1060.0</x>&#13;
+			<y>70.0</y>&#13;
+		</state>&#13;
+		<state id="10" name="q10">&#13;
+			<x>70.0</x>&#13;
+			<y>200.0</y>&#13;
+		</state>&#13;
+		<state id="11" name="q11">&#13;
+			<x>180.0</x>&#13;
+			<y>200.0</y>&#13;
+		</state>&#13;
+		<state id="12" name="q12">&#13;
+			<x>290.0</x>&#13;
+			<y>200.0</y>&#13;
+		</state>&#13;
+		<state id="13" name="q13">&#13;
+			<x>400.0</x>&#13;
+			<y>200.0</y>&#13;
+		</state>&#13;
+		<state id="14" name="q14">&#13;
+			<x>510.0</x>&#13;
+			<y>200.0</y>&#13;
+		</state>&#13;
+		<state id="15" name="q15">&#13;
+			<x>620.0</x>&#13;
+			<y>200.0</y>&#13;
+		</state>&#13;
+		<state id="16" name="q16">&#13;
+			<x>730.0</x>&#13;
+			<y>200.0</y>&#13;
+		</state>&#13;
+		<state id="17" name="q17">&#13;
+			<x>840.0</x>&#13;
+			<y>200.0</y>&#13;
+		</state>&#13;
+		<state id="18" name="q18">&#13;
+			<x>950.0</x>&#13;
+			<y>200.0</y>&#13;
+		</state>&#13;
+		<state id="19" name="q19">&#13;
+			<x>1060.0</x>&#13;
+			<y>200.0</y>&#13;
+		</state>&#13;
+		<state id="20" name="q20">&#13;
+			<x>70.0</x>&#13;
+			<y>330.0</y>&#13;
+		</state>&#13;
+		<state id="21" name="q21">&#13;
+			<x>180.0</x>&#13;
+			<y>330.0</y>&#13;
+		</state>&#13;
+		<state id="22" name="q22">&#13;
+			<x>290.0</x>&#13;
+			<y>330.0</y>&#13;
+		</state>&#13;
+		<state id="23" name="q23">&#13;
+			<x>400.0</x>&#13;
+			<y>330.0</y>&#13;
+		</state>&#13;
+		<state id="24" name="q24">&#13;
+			<x>510.0</x>&#13;
+			<y>330.0</y>&#13;
+		</state>&#13;
+		<state id="25" name="q25">&#13;
+			<x>620.0</x>&#13;
+			<y>330.0</y>&#13;
+		</state>&#13;
+		<state id="26" name="q26">&#13;
+			<x>730.0</x>&#13;
+			<y>330.0</y>&#13;
+		</state>&#13;
+		<state id="27" name="q27">&#13;
+			<x>840.0</x>&#13;
+			<y>330.0</y>&#13;
+		</state>&#13;
+		<state id="28" name="q28">&#13;
+			<x>950.0</x>&#13;
+			<y>330.0</y>&#13;
+		</state>&#13;
+		<state id="29" name="q29">&#13;
+			<x>1060.0</x>&#13;
+			<y>330.0</y>&#13;
+		</state>&#13;
+		<state id="30" name="q30">&#13;
+			<x>70.0</x>&#13;
+			<y>460.0</y>&#13;
+		</state>&#13;
+		<state id="31" name="q31">&#13;
+			<x>852.0</x>&#13;
+			<y>469.0</y>&#13;
+			<final/>&#13;
+		</state>&#13;
+		<!--The list of transitions.-->&#13;
+		<transition>&#13;
+			<from>24</from>&#13;
+			<to>25</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>8</from>&#13;
+			<to>9</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>4</from>&#13;
+			<to>5</to>&#13;
+			<read>@</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>1</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>6</from>&#13;
+			<to>7</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>28</from>&#13;
+			<to>29</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>23</from>&#13;
+			<to>24</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>7</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>6</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>5</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>4</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>3</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>2</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>1</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>0</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>9</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>8</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>.</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>-</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>2</from>&#13;
+			<to>1</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>w</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>Z</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>v</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>u</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>X</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>27</from>&#13;
+			<to>28</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>t</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>Y</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>s</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>r</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>q</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>p</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>17</from>&#13;
+			<to>18</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>R</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>S</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>P</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>Q</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>V</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>z</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>W</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>y</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>T</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>x</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>U</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>g</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>J</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>f</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>K</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>e</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>H</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>d</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>I</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>c</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>N</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>b</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>O</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>a</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>L</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>M</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>o</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>B</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>n</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>C</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>m</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>l</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>A</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>k</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>F</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>j</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>G</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>i</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>D</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>h</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>E</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>W</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>z</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>V</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>U</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>x</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>T</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>y</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>S</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>11</from>&#13;
+			<to>12</to>&#13;
+			<read>.</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>R</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>Q</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>P</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>_</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>r</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>s</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>19</from>&#13;
+			<to>20</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>p</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>q</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>v</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>Z</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>w</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>Y</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>t</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>X</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>u</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>G</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>j</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>F</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>k</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>E</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>h</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>D</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>i</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>C</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>n</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>B</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>o</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>A</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>l</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>m</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>O</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>b</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>N</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>c</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>26</from>&#13;
+			<to>27</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>M</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>L</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>a</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>K</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>f</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>J</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>g</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>I</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>d</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>2</to>&#13;
+			<read>H</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>23</to>&#13;
+			<read>e</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>9</from>&#13;
+			<to>10</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>T</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>U</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>V</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>W</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>P</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>Q</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>R</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>S</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>X</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>Y</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>Z</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>16</from>&#13;
+			<to>11</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>D</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>E</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>F</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>G</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>A</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>B</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>C</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>L</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>M</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>N</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>O</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>H</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>I</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>J</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>K</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>t</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>u</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>v</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>w</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>p</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>q</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>r</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>s</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>x</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>y</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>z</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>d</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>e</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>f</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>g</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>a</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>b</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>c</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>l</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>m</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>n</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>o</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>h</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>i</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>j</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>k</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>X</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>Y</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>10</from>&#13;
+			<to>17</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>Z</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>P</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>Q</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>R</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>S</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>T</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>U</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>V</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>W</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>H</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>I</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>J</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>K</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>L</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>M</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>N</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>O</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>A</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>B</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>C</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>D</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>E</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>F</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>G</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>x</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>y</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>z</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>p</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>q</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>r</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>s</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>t</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>u</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>v</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>w</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>h</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>i</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>j</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>k</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>l</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>m</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>n</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>o</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>a</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>b</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>c</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>d</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>e</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>f</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>g</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>13</from>&#13;
+			<to>14</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>15</from>&#13;
+			<to>16</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>21</from>&#13;
+			<to>22</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>8</from>&#13;
+			<to>7</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>8</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>9</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>31</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>0</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>1</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>2</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>3</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>4</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>5</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>6</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>7</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>24</from>&#13;
+			<to>27</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>7</from>&#13;
+			<to>8</to>&#13;
+			<read>-</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>z</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>y</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>x</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>w</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>v</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>u</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>t</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>s</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>r</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>q</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>p</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>o</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>n</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>m</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>l</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>k</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>j</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>i</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>h</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>g</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>f</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>e</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>d</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>c</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>b</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>a</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>Z</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>Y</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>X</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>W</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>V</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>U</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>T</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>S</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>R</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>Q</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>P</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>O</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>N</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>M</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>L</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>K</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>J</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>I</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>H</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>G</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>F</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>E</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>D</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>C</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>B</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>A</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>3</from>&#13;
+			<to>4</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>-</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>3</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>2</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>1</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>0</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>7</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>6</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>5</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>4</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>9</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>8</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>15</from>&#13;
+			<to>14</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>c</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>b</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>a</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>g</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>f</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>e</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>d</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>k</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>j</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>i</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>h</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>o</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>n</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>m</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>l</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>s</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>r</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>q</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>p</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>w</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>v</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>u</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>t</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>z</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>y</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>x</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>C</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>B</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>A</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>G</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>F</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>E</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>D</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>K</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>28</from>&#13;
+			<to>31</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>J</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>I</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>H</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>O</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>N</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>M</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>L</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>S</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>R</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>Q</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>P</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>W</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>V</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>U</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>T</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>Z</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>Y</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>X</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>u</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>t</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>w</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>v</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>q</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>p</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>s</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>r</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>y</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>x</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>z</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>e</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>d</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>g</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>f</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>a</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>c</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>b</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>m</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>l</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>o</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>n</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>i</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>h</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>k</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>j</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>18</from>&#13;
+			<to>19</to>&#13;
+			<read>.</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>U</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>T</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>W</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>V</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>Q</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>P</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>12</from>&#13;
+			<to>13</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>S</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>R</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>Y</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>X</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>Z</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>E</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>D</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>G</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>F</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>A</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>C</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>B</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>M</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>L</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>O</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>N</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>I</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>H</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>K</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>29</from>&#13;
+			<to>30</to>&#13;
+			<read>J</read>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>10</from>&#13;
+			<to>11</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>5</from>&#13;
+			<to>6</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>2</from>&#13;
+			<to>3</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>16</from>&#13;
+			<to>17</to>&#13;
+			<read/>&#13;
+		</transition>&#13;
+	</automaton>&#13;
 </structure>
